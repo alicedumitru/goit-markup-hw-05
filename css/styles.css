@@ -801,7 +801,7 @@ img  {
     transform: translateY(0%);
   }
 
-  .project-link:active .overlay-text {
+  .project-link:focus .overlay-text {
     transform: translateY(0%);
   }
   /* styles for modal window */
