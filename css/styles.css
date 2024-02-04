@@ -59,9 +59,7 @@ img  {
   flex-shrink: 0;
 }
  
-.studio-nav-link {
-  color: var(--brand-color);
-}
+
 
 .nav-link:hover,
 .nav-link:focus {
@@ -73,12 +71,16 @@ img  {
   position: absolute;
   left: 0;
   bottom: -1px;
-  background-color: var(--brand-color);
+  background-color: var(--brand-color) ;
   height: 4px;
   border-radius: 2px;
   border-color: var(--brand-color);
   width: 100%;
   display: block;
+}
+
+.studio-nav-link {
+  color: #404bbf; 
 }
 
 .nav-website-logo  {
@@ -131,12 +133,8 @@ img  {
   position: relative;
 }
 
-.nav-link:hover,
-.nav-link:focus { 
-    color: #404bbf;
+ 
   
-  }
-
 .address-container {
     font-style: normal;
   }
@@ -642,6 +640,10 @@ img  {
   border-color: var(--brand-color);
   width: 100%;
   display: block;
+}
+
+.portfolio-nav-link {
+  color: #404bbf; 
 }
 
 
