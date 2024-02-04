@@ -60,7 +60,7 @@ img  {
 }
  
 .studio-nav-link {
-  color:  #404bbf;
+  color: var(--brand-color);
 }
 
 .nav-link:hover,
