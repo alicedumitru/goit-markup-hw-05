@@ -60,7 +60,7 @@ img  {
 }
  
 .studio-nav-link {
-  color: var(--brand-color);
+  color:  #404bbf;
 }
 
 .nav-link:hover,
@@ -780,7 +780,8 @@ img  {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .project-link:hover .overlay-text {
+  .project-link:hover 
+  .overlay-text:hover {
     transform: translateY(0%);
   }
 
@@ -814,7 +815,7 @@ img  {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
       0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 400px;
+    width: 408px;
   }
 
   .modal-close-button {
@@ -829,7 +830,7 @@ img  {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cornflower);
+    background-color: #e7e9fc;
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -838,11 +839,11 @@ img  {
 
   .modal-close-button:hover,
   .modal-close-button:focus {
-    background-color: var(--brand-color);
+    background-color: #404bbf;
     border: none;
     fill: var(--background-color);
   }
   
-  .modal-window-button-vector {
+  .modal-window-button {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
