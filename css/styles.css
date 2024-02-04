@@ -631,6 +631,21 @@ img  {
 
 /* the list of buttons */
 
+.portfolio-nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background-color: var(--brand-color);
+  height: 4px;
+  border-radius: 2px;
+  border-color: var(--brand-color);
+  width: 100%;
+  display: block;
+}
+
+
+
 
   .sec-one-list-of-buttons {
     list-style-type: none;
