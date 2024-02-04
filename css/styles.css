@@ -797,11 +797,13 @@ img  {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .overlay-text:hover, 
-  .overlay-text:focus {
+  .project-link:hover .overlay-text {
     transform: translateY(0%);
   }
 
+  .project-link:active .overlay-text {
+    transform: translateY(0%);
+  }
   /* styles for modal window */
 
   .modal-window-container {
